@@ -1,0 +1,8 @@
+name = "cloudflare-email-webhook"
+main = "src/index.ts"
+compatibility_date = "2024-08-15"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+WEBHOOK_URL = "https://webhook.site/0d0bbb45-5b7e-4b4b-b3ac-514a32584d9d"
+#EXTRA_HEADERS = "{\"Authorization\":\"access_token\"}"
